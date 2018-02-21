@@ -4,12 +4,12 @@
  * In this lab we will model a bank. We have two classes: Bank and BankAccount. You should finish
  * both classes, by fixing checkstyle errors, defining constructors, getters and setters, and
  * accessing private variables.
- *
+ * the name of the bank
  * @see <a href="https://cs125.cs.illinois.edu/lab/8/">Lab 8 Description</a>
  */
 public class Bank {
 
-    public String bankName;
+    private final String bankName;
 
     public Bank() {
         bankName = "Illini Bank";
