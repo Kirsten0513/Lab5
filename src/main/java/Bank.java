@@ -8,9 +8,14 @@
  * @see <a href="https://cs125.cs.illinois.edu/lab/8/">Lab 8 Description</a>
  */
 public class Bank {
-
+    /**
+     * @param bankName the name of the bank.
+     */
     private final String bankName;
 
+    /**
+     * create a public constructor of bank
+     */
     public Bank() {
         bankName = "Illini Bank";
     }
